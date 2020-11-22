@@ -14,6 +14,8 @@ RUN apt-get install -y \
     libtbb-dev \
     libgsl-dev \
     jupyter \
+    python3-pip \
+    python3-virtualenv \
     python3-pandas \
     python3-numpy \
     python3-scipy \
@@ -48,6 +50,8 @@ RUN install2.r -e -s -n -1 \
     modeltime.ensemble \
     randomForest \
     xgboost \
+    tensorflow \
+    keras \
     C50 \
     e1071 \
     gbm \
