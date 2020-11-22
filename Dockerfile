@@ -13,6 +13,7 @@ RUN apt-get install -y \
     libmpfr-dev \
     libtbb-dev \
     libgsl-dev \
+    libavfilter-dev \
     jupyter \
     python3-pip \
     python3-venv \
@@ -129,6 +130,7 @@ RUN install2.r -e -s -n -1 \
     rayshader \
     rayrender \
     rayimage \
+    av \
     choroplethr \
     choroplethrAdmin1 \
     choroplethrMaps
