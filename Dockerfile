@@ -127,6 +127,8 @@ RUN install2.r -e -s -n -1 \
     learnr \
     magick \
     rayshader \
+    rayrender \
+    rayimage \
     choroplethr \
     choroplethrAdmin1 \
     choroplethrMaps
