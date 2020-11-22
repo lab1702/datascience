@@ -15,7 +15,7 @@ RUN apt-get install -y \
     libgsl-dev \
     jupyter \
     python3-pip \
-    python3-virtualenv \
+    python3-venv \
     python3-pandas \
     python3-numpy \
     python3-scipy \
@@ -57,6 +57,7 @@ RUN install2.r -e -s -n -1 \
     gbm \
     glmnet \
     rpart.plot \
+    treeheatr \
     forecast \
     prophet \
     quantmod \
@@ -78,6 +79,8 @@ RUN install2.r -e -s -n -1 \
     ggdark \
     basetheme \
     prettydoc \
+    alluvial \
+    ggalluvial \
     easyalluvial \
     gridExtra \
     latticeExtra \
@@ -122,7 +125,6 @@ RUN install2.r -e -s -n -1 \
     formattable \
     rpivotTable \
     learnr \
-    treeheatr \
     magick \
     rayshader \
     choroplethr \
