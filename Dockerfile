@@ -59,6 +59,9 @@ RUN install2.r -e -s -n -1 \
     glmnet \
     rpart.plot \
     treeheatr \
+    DALEX \
+    DALEXtra \
+    modelStudio \
     forecast \
     prophet \
     quantmod \
