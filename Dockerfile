@@ -16,17 +16,7 @@ RUN apt-get install -y \
     libavfilter-dev \
     jupyter \
     python3-pip \
-    python3-venv \
-    python3-pandas \
-    python3-numpy \
-    python3-scipy \
-    python3-matplotlib \
-    python3-seaborn \
-    python3-sklearn \
-    python3-statsmodels \
-    python3-plotly \
-    python3-pymssql \
-    python3-pyodbc
+    python3-venv
 
 RUN apt-get clean -y
 
@@ -34,6 +24,7 @@ RUN apt-get clean -y
 RUN /usr/local/lib/R/site-library/littler/examples/update.r -n -1
 
 RUN install2.r -e -s -n -1 \
+    reticulate \
     IRkernel \
     rsconnect \
     odbc \
@@ -59,6 +50,17 @@ RUN install2.r -e -s -n -1 \
     glmnet \
     rpart.plot \
     treeheatr \
+    dataMaid \
+    xray \
+    visdat \
+    dlookr \
+    funModeling \
+    arsenal \
+    SmartEDA \
+    summarytools \
+    exploreR \
+    autoplotly \
+    gpairs \
     DALEX \
     DALEXtra \
     modelStudio \
@@ -77,6 +79,7 @@ RUN install2.r -e -s -n -1 \
     shinydashboard \
     shinyBS \
     shinyjs \
+    shinymanager \
     profvis \
     ggthemes \
     hrbrthemes \
@@ -137,9 +140,6 @@ RUN install2.r -e -s -n -1 \
     choroplethr \
     choroplethrAdmin1 \
     choroplethrMaps
-
-
-RUN echo 'Sys.setenv(TZ = "US/Eastern")' > /home/rstudio/.Rprofile
 
 
 RUN su -l rstudio -c "R -e 'IRkernel::installspec()'"
