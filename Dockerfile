@@ -86,6 +86,7 @@ RUN install2.r -e -s -n -1 \
     ggdark \
     basetheme \
     prettydoc \
+    distill \
     alluvial \
     ggalluvial \
     easyalluvial \
