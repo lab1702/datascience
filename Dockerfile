@@ -86,6 +86,7 @@ RUN install2.r -e -s -n -1 \
     ggdark \
     basetheme \
     prettydoc \
+    rticles \
     distill \
     alluvial \
     ggalluvial \
@@ -115,6 +116,10 @@ RUN install2.r -e -s -n -1 \
     topicmodels \
     sentimentr \
     udpipe \
+    quanteda \
+    quanteda.textstats \
+    quanteda.textplots \
+    quanteda.textmodels \
     styler \
     arules \
     arulesCBA \

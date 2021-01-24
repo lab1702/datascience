@@ -2,7 +2,11 @@
     "save_workspace": "never",
     "load_workspace": false,
     "always_save_history": false,
-    "editor_theme": "Material",
     "default_sweave_engine": "knitr",
-    "font_size_points": 12
+    "editor_theme": "Material",
+    "highlight_selected_line": true,
+    "highlight_r_function_calls": true,
+    "rainbow_parentheses": true,
+    "syntax_color_console": true,
+    "console_double_click_select": true
 }
