@@ -4,7 +4,6 @@
     "always_save_history": false,
     "default_sweave_engine": "knitr",
     "editor_theme": "Material",
-    "highlight_selected_line": true,
     "highlight_r_function_calls": true,
     "rainbow_parentheses": true,
     "syntax_color_console": true,
