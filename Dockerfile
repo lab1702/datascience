@@ -64,6 +64,7 @@ RUN install2.r -e -s -n -1 \
     DALEX \
     DALEXtra \
     modelStudio \
+    ppsr \
     forecast \
     prophet \
     quantmod \
